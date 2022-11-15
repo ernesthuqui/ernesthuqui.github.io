@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    font-family: 'Manjari', sans-serif;
+    background-color: rgb(35, 68, 130);
+
+
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header .texto-header {
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.texto-header h1 {
+    font-size: 50px;
+    color: cornflowerblue;
+}
+
+.texto-header h2 {
+    font-size: 30px;
+    font-weight: 300;
+    color: cornflowerblue;
+}
+
+header {
+    width: 100%;
+    height: 731px;
+    background-color: black;
+    background: url(./img/fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav {
+    text-align: right;
+    padding: 30px 50px 0 0;
+
+}
+
+nav>a {
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+nav>a:hover {
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+
+.wave {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    top: 74px;
+
+}
+.contenedor-curriculum{
+    background-color: rgba(35, 49, 75, 0.847);
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    position: relative;
+    height: 95vh; 
+    
+
+}
+
+.titulo {
+    text-align: center;
+    color: white;
+    position:relative;
+    width: 20%;
+    top: 50px;
+    left: 40%;
+    font-size: 40px;
+
+}
+.contenedor-img-carnet {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+
+}
+.img-about-us {
+    width: 250px;
+    height: 350px;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 30%;
+    border-radius: 10px;
+    box-shadow:
+        inset 0 -8em 8em rgba(0, 0, 0, 0.1),
+        0 0 0 2px rgb(48, 79, 132),
+        0.8em 0.8em 1em rgba(0, 0, 0, 0.3);
+}
+
+
+.contenido-texto p {
+    text-align: justify;
+    position: relative;
+    height: 20%;
+    width: 20%;
+    bottom: 250px;
+    left: 780px;
+    font-size: 25px;
+    color: white;
+
+}
+
+.btn{
+    display:block;
+    text-align: center;
+    width: 200px;
+    font-family: 'Manjari', sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    margin: 100px 130px;
+    padding: 15px 30px;
+    background-color: rgb(37, 99, 223);
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    bottom: 330px;
+    left: 675px;
+
+    
+    
+}
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white
+}
+
+footer {
+    background-color: rgb(61, 89, 141);
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-pie {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.contenido-pie {
+    text-align: center;
+}
+
+.contenido-pie h4 {
+    color: #fff;
+    border-bottom: 3px solid #3056be;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.contenido-pie p {
+    color: #9e9797;
+}
+
+.credito {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px;
+    color: white;
+}

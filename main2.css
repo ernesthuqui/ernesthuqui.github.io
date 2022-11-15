@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: auto;
+    background-attachment: fixed;
+    position: relative;
+    font-family: 'Manjari', sans-serif;
+    background-color: rgb(43, 120, 141);
+    
+}
+
+.titulo{
+    color: white;
+    display: flex;
+    height: 350px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    background-image: url(./img/fondo\ 2.jpg);
+    background-size: cover;
+}
+.wave {
+    position: relative;
+    bottom: 170px;
+    width: 100%;
+
+}
+.contenedor{
+    padding: 60px 0;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-texto{
+    text-align:left;
+    position: relative;
+    padding: 60px 30px;
+    max-width: 300px;
+    bottom: 150px;
+    left: 780px;
+    font-size: 22px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(24, 82, 100);
+}
+
+.contenedor-imagen{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.img-control{
+    position: relative;
+    margin: auto;
+    right: 250px;
+    bottom: 530px;
+    border-radius: 40px;
+    box-shadow:
+        inset 0 -8em 8em rgba(0, 0, 0, 0.1),
+        0 0 0 2px rgb(48, 79, 132),
+        0.8em 0.8em 1em rgba(0, 0, 0, 0.3);
+}
+
+.contenedor-imagen2{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.img-control2{
+    position: relative;
+    margin: auto;
+    width: 200px;
+    right: 250px;
+    bottom: 470px;
+}
+
+footer{
+    background-color: rgb(64, 171, 200);
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-pie{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.credito{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px;
+    color: white;
+}
